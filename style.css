@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    
+    
+}
+
+.top .header{
+    position: fixed;
+    background-color:#18222d;
+    width: 100%;
+    height: 11.7%;
+    z-index: 100000;
+    top: 0%;
+   
+}
+
+.top .header img{
+    position: relative;
+    width: 11.5%;
+    height: 83%;
+    margin-left: 2em;
+    margin-top: 2px;
+    
+}
+
+
+.part1{
+    position: absolute;
+    margin-top: 4%;
+    background-image: url(assets/BANNER1.jpg);
+    width: 100%;
+    height: 80%;
+    color: aliceblue;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+   
+   
+} 
+.part1  h1{
+    position: relative;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    font-size: 8rem;
+    font-weight: 10;
+    background-color: transparent;
+    overflow: hidden;
+  text-overflow: none;
+  z-index: 100;
+}
+
+.part1  p{
+
+    position: relative;
+    margin-top: 0%;
+    margin-left: 5%;
+    font-size: 4rem;
+    font-weight: 10;
+    background-color: transparent;
+    overflow: hidden;
+    text-overflow: none;
+    z-index: 100;
+    width: 100%;
+}
+
+.part1  h3{
+    position:relative;
+    top: 7%;
+    left: 5%;
+    font-size: 6rem;
+    font-weight: 10;
+    background-color: #0f79af;
+     height: 10%;
+    width: 25%;
+    z-index: 100;
+    text-align: center;
+     margin-top:3%; 
+     padding-top: 1%;
+    border-radius: 3%;
+    /* overflow: hidden;
+    text-overflow: none;
+    z-index: 100;
+    text-align: center;
+    margin-top:3%;
+    padding-top: 1%;
+    border-radius: 3%;  */
+   
+
+}
+/* 
+.part1:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140%;
+    height: 500px;
+    z-index: 1;
+    background: linear-gradient(to right,#000,transparent);
+} */
+
+ 
+
+ .part2{
+    
+    position:absolute;
+    top: 100%;
+    z-index: 1000;
+    height: 50%;
+    width:80%;
+    padding-top: -29%;
+    color: aliceblue;
+    background-position: center;
+    background-size: contain;
+    display: inline-grid ;
+    
+   
+   
+} 
+.part2 img{
+    position: relative;
+   top: -14%;
+    height: 80%;
+    width: 125%;
+    
+}
+
+.part2 h1{
+    height: 100%;
+    position: absolute;
+    top: 5%;
+    z-index: 100;
+    background-color: transparent;
+    
+left: 80%;
+font-size: 8rem;
+font-weight: 10;
+    display: flex;
+}
+
+.part2 p{
+    height: 100%;
+    position: absolute;
+    left: 80%;
+    top: 35%;
+    font-size: 4rem;
+    font-weight: 10;
+    z-index: 100;
+    background-color: transparent;
+} 
+
+
+.part2 h3{
+    position:absolute;
+    top: 60%;
+    left: 80%;
+    font-size: 6rem;
+    font-weight: 10;
+    background-color: #0f79af;
+     height: 13%;
+    width: 25%;
+    z-index: 100;
+    text-align: center;
+     margin-top:3%; 
+     padding-top: 1%;
+    border-radius: 3%;
+}
+
+.part3{
+
+   
+    position:absolute;
+    top: 155%;
+    z-index: 1000;
+    height: 80%;
+    width: 92.5%;
+    padding-top: 0%;
+    color: aliceblue;
+    background-position: center;
+    background-size: contain;
+    
+    
+}
+
+.part3 img{
+    position:relative;
+    margin-top: 0%;
+    height: 100%;
+    width: 108%;
+    
+}
+
+.part3 h1{
+    position: absolute;
+    top: 6%;
+    left: 7%;
+    font-size: 8rem;
+    font-weight: 10;
+    background-color:transparent;
+     height: 8%;
+    width: 25%;
+    z-index: 100;
+}
+
+
+.part3 p{
+    position: absolute;
+    top: 22%;
+    left: 7%;
+    font-size: 4rem;
+    font-weight: 10;
+    background-color:transparent;
+     height: 8%;
+    width: 25%;
+    z-index: 100;
+}
+
+.part3 h3{
+    position:absolute;
+    top: 60%;
+    left: 7%;
+    font-size: 6rem;
+    font-weight: 10;
+    background-color: #0f79af;
+     height: 8%;
+    width: 25%;
+    z-index: 100;
+    text-align: center;
+     margin-top:3%; 
+     padding-top: 1%;
+    border-radius: 3%;
+}
+.part4{
+    position:absolute;
+    top: 229%;
+    z-index: 1000;
+    height: 80%;
+    width: 92.5%;
+    padding-top: 0%;
+    color: aliceblue;
+    background-position: center;
+    background-size: contain;
+    
+}
+.part4 img{
+    position:relative;
+    margin-top: 0%;
+    height: 100%;
+    width: 108%;
+    
+}
+.part4 h1{
+    position: absolute;
+    top: 6%;
+    left: 60%;
+    font-size: 8rem;
+    font-weight: 10;
+    background-color:transparent;
+     height: 8%;
+    width: 25%;
+    z-index: 100;
+}
+
+.part4 p{
+    position: absolute;
+    top: 22%;
+    left: 60%;
+    font-size: 4rem;
+    font-weight: 10;
+    background-color:transparent;
+     height: 8%;
+    width: 25%;
+    z-index: 100;
+}
+.part4 h3{
+    position:absolute;
+    top: 60%;
+    left: 60%;
+    font-size: 6rem;
+    font-weight: 10;
+    background-color: #0f79af;
+     height: 8%;
+    width: 25%;
+    z-index: 100;
+    text-align: center;
+     margin-top:3%; 
+     padding-top: 1%;
+    border-radius: 3%;
+
+}
+
+.part5
+{
+    position:absolute;
+    top: 100%;
+    z-index: 1000;
+    height: 50%;
+    width:80%;
+    padding-top: -29%;
+    color: black;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+   flex-wrap: wrap; 
+  
+    
+    /* background-color: aliceblue; */
+}
+
+.part5 .card1 img{
+    position: relative;
+    left:12%;
+    height: 80%;
+    width: 27%;
+}
+.part5 .card1 h1{
+    position: relative;
+    left:12%
+}
+
+.part5 .card1 p{
+    position: relative;
+    left:12%
+}
+
+
+.part5 .card2 img{
+    position: relative;
+    top: -100%;
+    left:62%;
+    height: 70%;
+    width: 27%;
+    display: flex;
+    flex-wrap: wrap; 
+   
+}
+.part5 .card2 h1{
+    position: relative;
+    top: -90%;
+    left:63%
+}
+
+.part5 .card2 p{
+    position: relative;
+    top: -75%;
+    left:62%
+}
+
+
+.part5 .card3 img{
+    position: relative;
+    top: -250%;
+    left: 150% ;
+    height: 80%;
+    width: 27%;
+}
+.part5 .card3 h1{
+    position: relative;
+    top: -235%;
+    left:150%
+}
+
+.part5 .card3 p{
+    position: relative;
+    top: -215%;
+    left:150%
+}
+
+.part6
+{
+    position:absolute;
+    top: 100%;
+    z-index: 1000;
+    height: 50%;
+    width:80%;
+    padding-top: -29%;
+    color: aliceblue;
+    background-position: center;
+    background-size: contain;
+    display: inline-grid ;
+    background-color: transparent;
+}
+
+.part6 img{
+    position: relative;
+    height:100%;
+    top :120%;
+    width: 135%;
+}
+
+.part6 h1{
+position: absolute;
+    top:325%;
+    left: 15%;
+    font-size: 8rem;
+    font-weight: 10;
+
+    width: 25%;
+    z-index: 100;
+}
+
+.part6 p{
+    position: absolute;
+    top: 348%;
+    left: 15%;
+    font-size: 4rem;
+    font-weight: 10;
+    background-color:transparent;
+     height: 8%;
+    width: 25%;
+    z-index: 100;
+}
+.part6 h3{
+    position:absolute;
+    top: 400%;
+    left: 15%;
+    font-size: 6rem;
+    font-weight: 10;
+    background-color: #0f79af;
+     height: 16%;
+    width: 25%;
+    z-index: 100;
+    text-align: center;
+     margin-top:3%; 
+     padding-top: 1%;
+    border-radius: 3%;
+}
